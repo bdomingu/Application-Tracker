@@ -4,7 +4,7 @@ import {Nav} from 'react-bootstrap';
 function AlignmentExample() {
   return (
     
-      <Nav className="nav" activeKey="/home">
+      <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Home </Nav.Link>
         </Nav.Item>
